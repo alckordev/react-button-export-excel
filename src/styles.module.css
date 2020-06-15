@@ -1,9 +1,57 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.btn,
+.btn:focus {
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 0.8571em;
+  line-height: 1.35em;
+  margin: 10px 1px;
+  border: none;
+  border-radius: 0.1875rem;
+  padding: 11px 22px;
+  cursor: pointer;
+  background-color: #339966;
+  color: #fff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+}
+
+.btn:not(.disabled):hover {
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+.btn_light {
+  background-color: #66cc99;
+}
+
+.btn_dark {
+  background-color: #1a4c33;
+}
+
+.btn_outline,
+.btn_outline:focus {
+  background-color: transparent;
+  color: #339966;
+  border: 1px solid #339966;
+}
+
+.btn_outline:not(.disabled):hover {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+}
+
+.btn_outline.btn_light {
+  color: #66cc99;
+  border-color: #66cc99;
+}
+
+.btn_outline.btn_dark {
+  color: #1a4c33;
+  border-color: #1a4c33;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

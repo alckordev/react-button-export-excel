@@ -1,10 +1,21 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-button-export-excel'
+import { ButtonExportExcel } from 'react-button-export-excel'
 import 'react-button-export-excel/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <ButtonExportExcel
+      outline
+      data={[
+        { name: 'Francisco', sex: 'M' },
+        { name: 'Ethel', sex: 'F' }
+      ]}
+      filename='thismycomponent'
+    >
+      ¡Exportar!
+    </ButtonExportExcel>
+  )
 }
 
 export default App
