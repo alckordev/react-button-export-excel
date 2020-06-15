@@ -46,4 +46,4 @@ class App extends Component {
 
 ## License
 
-MIT © [Alckor127](https://github.com/Alckor127)
+MIT License. Copyright © [Alckor127](https://github.com/Alckor127) 2020
