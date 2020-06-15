@@ -1,10 +1,13 @@
 {
-  "name": "react-button-export-excel",
+  "name": "@alckor127/react-button-export-excel",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "alckor127",
   "license": "MIT",
-  "repository": "alckor127/react-button-export-excel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alckor127/react-button-export-excel.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -54,5 +57,16 @@
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
     "xlsx": "^0.16.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/alckor127/react-button-export-excel/issues"
+  },
+  "homepage": "https://github.com/alckor127/react-button-export-excel#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "react",
+    "export-excel"
+  ]
 }
