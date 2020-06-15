@@ -19,8 +19,8 @@ import { ButtonExportExcel } from '@alckor127/react-button-export-excel'
 import '@alckor127/react-button-export-excel/dist/index.css'
 
 const data = [
-  { name: 'Francisco Luis', sex: 'M', age: 28 },
-  { name: 'Ethel Milagros', sex: 'F', age: 27 }
+  { name: 'John Doe', sex: 'M', age: 28 },
+  { name: 'Jane Doe', sex: 'F', age: 27 }
 ]
 
 class App extends Component {
