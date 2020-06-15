@@ -1,8 +1,8 @@
 # @alckor127/react-button-export-excel
 
-> Made with create-react-library
+> Button component to export a json array to excel.
 
-[![NPM](https://img.shields.io/npm/v/react-button-export-excel.svg)](https://www.npmjs.com/package/@alckor127/react-button-export-excel) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@alckor127/react-button-export-excel.svg)](https://www.npmjs.com/package/@alckor127/react-button-export-excel) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
