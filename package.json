@@ -1,6 +1,6 @@
 {
   "name": "@alckor127/react-button-export-excel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Button component to export a json array to excel",
   "author": "alckor127",
   "license": "MIT",
