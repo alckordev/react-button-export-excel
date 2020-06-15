@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { ButtonExportExcel } from '.'
 
-describe('ExampleComponent', () => {
+describe('ButtonExportExcel', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(ButtonExportExcel).toBeTruthy()
   })
 })
