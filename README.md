@@ -1,8 +1,8 @@
-# react-button-export-excel
+# @alckor127/react-button-export-excel
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/react-button-export-excel.svg)](https://www.npmjs.com/package/react-button-export-excel) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-button-export-excel.svg)](https://www.npmjs.com/package/@alckor127/react-button-export-excel) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -36,13 +36,13 @@ class App extends Component {
 
 ## Props
 
-- data is the the json array for export.
-- filename is the file name.
-- outline is the outline style for button.
-- innerRef is the ref.
-- disabled is when the button is disabled.
-- dark is the dark style for button.
-- light is the light style for button.
+- `data` - is the the json array for the export.
+- `filename` - is the file name.
+- `outline` - is the outline style from button.
+- `innerRef` - is the reference from react.
+- `disabled` - is when the button is disabled.
+- `dark` - is the dark style from button.
+- `light` - is the light style from button.
 
 ## License
 
