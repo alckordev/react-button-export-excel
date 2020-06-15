@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-button-export-excel
+npm install --save @alckor127/react-button-export-excel
 ```
 
 ## Usage
@@ -15,15 +15,34 @@ npm install --save react-button-export-excel
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-button-export-excel'
-import 'react-button-export-excel/dist/index.css'
+import { ButtonExportExcel } from '@alckor127/react-button-export-excel'
+import '@alckor127/react-button-export-excel/dist/index.css'
 
-class Example extends Component {
+const data = [
+  { name: 'Francisco Luis', sex: 'M', age: 28 },
+  { name: 'Ethel Milagros', sex: 'F', age: 27 }
+]
+
+class App extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <ButtonExportExcel outline data={data} filename='example'>
+        ¡Export now!
+      </ButtonExportExcel>
+    )
   }
 }
 ```
+
+## Props
+
+- data is the the json array for export.
+- filename is the file name.
+- outline is the outline style for button.
+- innerRef is the ref.
+- disabled is when the button is disabled.
+- dark is the dark style for button.
+- light is the light style for button.
 
 ## License
 
